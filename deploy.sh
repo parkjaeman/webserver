@@ -1,3 +1,7 @@
+aws ecr get-login --region ap-southeast-1 > temp.sh
+chmod +x temp.sh
+./temp.sh
+rm temp.sh
 docker build -t 834160605896.dkr.ecr.ap-southeast-1.amazonaws.com/webserver:latest .
 docker push 834160605896.dkr.ecr.ap-southeast-1.amazonaws.com/webserver:latest
 curl -X DELETE -H "cluster_name: toledo-dev-v0.4" -H "service_name: webserver" http://52.221.249.75:8080/userService
