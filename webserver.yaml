@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: web-server-http
-        image: 834160605896.dkr.ecr.ap-southeast-1.amazonaws.com/heavy-cpu-utilization
+        image: 834160605896.dkr.ecr.ap-southeast-1.amazonaws.com/webserver:latest
         resources:
           limits:
             cpu: 200m
