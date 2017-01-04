@@ -1,8 +1,8 @@
 echo "aaa"
-aws configure set --profile=mf aws_access_key AKIAJWZQFLWB4QLGM3RQ
-aws configure set --profile=mf aws_secret_access_key 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
-aws configure set --profile=mf region ap-southeast-1
-aws configure set --profile=mf output json
+aws configure set aws_access_key_id AKIAJWZQFLWB4QLGM3RQ
+aws configure set aws_secret_access_key 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
+aws configure set region ap-southeast-1
+aws configure set output json
 echo "bbb"
 
 #: <<'END'
