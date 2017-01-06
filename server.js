@@ -12,7 +12,7 @@ var handleRequest = function(request, response) {
   }
 
   response.writeHead(200);
-  response.end(id +', Hello World! 6, ' + resStr.length);
+  response.end(id +', Hello World! 7, ' + resStr.length);
 };
 var www = http.createServer(handleRequest);
 www.listen(8080);
