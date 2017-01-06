@@ -1,9 +1,3 @@
-# aws configure
-aws configure set aws_access_key_id AKIAJWZQFLWB4QLGM3RQ
-aws configure set aws_secret_access_key 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
-aws configure set region ap-southeast-1
-aws configure set output json
-
 # aws login
 aws ecr get-login --region ap-southeast-1 > temp.sh
 chmod +x temp.sh
